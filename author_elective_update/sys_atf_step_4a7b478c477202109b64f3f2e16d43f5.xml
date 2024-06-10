@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from/>
+        <description>Create and impersonate user with the following values:
+First name = Joe
+and Last name = Schmo
+With roles: admin</description>
+        <display_name>Create a User</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>1</order>
+        <step_config display_value="Create a User">d9bc5f21ff6033008d3f5d9ad53bf12d</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-10 12:09:19</sys_created_on>
+        <sys_id>4a7b478c477202109b64f3f2e16d43f5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Create a User</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_atf_step_4a7b478c477202109b64f3f2e16d43f5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-10 12:10:03</sys_updated_on>
+        <table>sys_user</table>
+        <test display_value="When needed - Today">b25b438c477202109b64f3f2e16d438d</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=4a7b478c477202109b64f3f2e16d43f5"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>4a7b478c477202109b64f3f2e16d43f5</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-10 12:09:19</sys_created_on>
+        <sys_id>027b478c477202109b64f3f2e16d43f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-10 12:09:19</sys_updated_on>
+        <value/>
+        <variable display_value="User field values">1778a7480f20101091d0f00c97767e03</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>4a7b478c477202109b64f3f2e16d43f5</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-10 12:09:19</sys_created_on>
+        <sys_id>067b478c477202109b64f3f2e16d43f7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-10 12:10:03</sys_updated_on>
+        <value>Schmo</value>
+        <variable display_value="Last name">6f69fc4aff6433008d3f5d9ad53bf18c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>4a7b478c477202109b64f3f2e16d43f5</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-10 12:09:19</sys_created_on>
+        <sys_id>427b478c477202109b64f3f2e16d43f7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-10 12:10:03</sys_updated_on>
+        <value>2831a114c611228501d4ea6c309d626d</value>
+        <variable display_value="Roles">8c07aba5ff6033008d3f5d9ad53bf13b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>4a7b478c477202109b64f3f2e16d43f5</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-10 12:09:19</sys_created_on>
+        <sys_id>4e7b478c477202109b64f3f2e16d43f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-10 12:09:19</sys_updated_on>
+        <value>sys_user</value>
+        <variable display_value="Table">ff06ab840f20101091d0f00c97767e6d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>4a7b478c477202109b64f3f2e16d43f5</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-10 12:09:19</sys_created_on>
+        <sys_id>8a7b478c477202109b64f3f2e16d43f7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-10 12:10:03</sys_updated_on>
+        <value>Joe</value>
+        <variable display_value="First name">1985e0ceff2433008d3f5d9ad53bf1ba</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>4a7b478c477202109b64f3f2e16d43f5</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-10 12:09:19</sys_created_on>
+        <sys_id>8e7b478c477202109b64f3f2e16d43f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-10 12:09:19</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Impersonate this user">98c44875ffa033008d3f5d9ad53bf1fa</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>4a7b478c477202109b64f3f2e16d43f5</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-10 12:09:19</sys_created_on>
+        <sys_id>c67b478c477202109b64f3f2e16d43f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-10 12:09:19</sys_updated_on>
+        <value/>
+        <variable display_value="Groups">b27b2b29ff6033008d3f5d9ad53bf164</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_atf_input_variable_d9bc5f21ff6033008d3f5d9ad53bf12d^id=4a7b478c477202109b64f3f2e16d43f5"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>0fcc6b581bfa3150ba5ceb9b2d4bcbea</instance_id>
+        <instance_name>dev224584</instance_name>
+        <name>sys_atf_step_4a7b478c477202109b64f3f2e16d43f5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description>Create and impersonate user with the following values:
+First name = Joe
+and Last name = Schmo
+With roles: admin</description><display_name>Create a User</display_name><inputs/><mugshots_cache_json/><notes/><order>1</order><step_config display_value="Create a User">d9bc5f21ff6033008d3f5d9ad53bf12d</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-10 12:09:19</sys_created_on><sys_id>4a7b478c477202109b64f3f2e16d43f5</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Create a User</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_atf_step_4a7b478c477202109b64f3f2e16d43f5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-10 12:10:03</sys_updated_on><table>sys_user</table><test display_value="When needed - Today">b25b438c477202109b64f3f2e16d438d</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=4a7b478c477202109b64f3f2e16d43f5"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>4a7b478c477202109b64f3f2e16d43f5</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-10 12:09:19</sys_created_on><sys_id>027b478c477202109b64f3f2e16d43f8</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-10 12:09:19</sys_updated_on><value/><variable display_value="User field values">1778a7480f20101091d0f00c97767e03</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>4a7b478c477202109b64f3f2e16d43f5</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-10 12:09:19</sys_created_on><sys_id>067b478c477202109b64f3f2e16d43f7</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-10 12:10:03</sys_updated_on><value>Schmo</value><variable display_value="Last name">6f69fc4aff6433008d3f5d9ad53bf18c</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>4a7b478c477202109b64f3f2e16d43f5</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-10 12:09:19</sys_created_on><sys_id>427b478c477202109b64f3f2e16d43f7</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-10 12:10:03</sys_updated_on><value>2831a114c611228501d4ea6c309d626d</value><variable display_value="Roles">8c07aba5ff6033008d3f5d9ad53bf13b</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>4a7b478c477202109b64f3f2e16d43f5</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-10 12:09:19</sys_created_on><sys_id>4e7b478c477202109b64f3f2e16d43f7</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-10 12:09:19</sys_updated_on><value>sys_user</value><variable display_value="Table">ff06ab840f20101091d0f00c97767e6d</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>4a7b478c477202109b64f3f2e16d43f5</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-10 12:09:19</sys_created_on><sys_id>8a7b478c477202109b64f3f2e16d43f7</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-10 12:10:03</sys_updated_on><value>Joe</value><variable display_value="First name">1985e0ceff2433008d3f5d9ad53bf1ba</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>4a7b478c477202109b64f3f2e16d43f5</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-10 12:09:19</sys_created_on><sys_id>8e7b478c477202109b64f3f2e16d43f6</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-10 12:09:19</sys_updated_on><value>1</value><variable display_value="Impersonate this user">98c44875ffa033008d3f5d9ad53bf1fa</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>4a7b478c477202109b64f3f2e16d43f5</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-10 12:09:19</sys_created_on><sys_id>c67b478c477202109b64f3f2e16d43f7</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-10 12:09:19</sys_updated_on><value/><variable display_value="Groups">b27b2b29ff6033008d3f5d9ad53bf164</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_d9bc5f21ff6033008d3f5d9ad53bf12d^id=4a7b478c477202109b64f3f2e16d43f5"/></record_update>]]></payload>
+        <payload_hash>788245003</payload_hash>
+        <record_name>Create a User</record_name>
+        <reverted_from/>
+        <source>b13eeef1472202109b64f3f2e16d431f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-10 12:10:03</sys_created_on>
+        <sys_id>3cab878c477202109b64f3f2e16d4312</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190020e321f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-10 12:10:03</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>f0ab878cd972021014dfa0ba397ded12</update_guid>
+        <update_guid_history>f0ab878cd972021014dfa0ba397ded12:788245003,867b478c7e72021053b43b575989dafa:1565054104</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-10 12:54:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>392ae1c8dbd249688b35d21f0bc37e40</sys_id>
+        <sys_metadata>4a7b478c477202109b64f3f2e16d43f5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create a User</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_atf_step_4a7b478c477202109b64f3f2e16d43f5</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_4a7b478c477202109b64f3f2e16d43f5">3cab878c477202109b64f3f2e16d4312</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-10 12:54:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
